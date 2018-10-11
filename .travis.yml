@@ -32,7 +32,5 @@ script:
 #   - python ex16.py
 #   - sleep 3
 #   - python ex17.py
-#   - sleep 3
-#   - python ex18.py
     - python ex1.py
   
