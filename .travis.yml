@@ -18,8 +18,7 @@ install:
    - pip install pytest
 #     - pip install -r requirements.txt
 script:
-#   - py.test -v --color=yes --exitfirst --showlocals --durations=5
- - python escapeCharector.py
+   - python ex1.py
 #   - sleep 3
 #   - python ex12.py
 #   - sleep 3
@@ -32,5 +31,5 @@ script:
 #   - python ex16.py
 #   - sleep 3
 #   - python ex17.py
-    - python ex1.py
+#     - python ex1.py
   
