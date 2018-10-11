@@ -1,9 +1,39 @@
 language: python
+sudo: false
 
 python:
-  - "2.7"
+ - "2.7"
+#   - "3.4"
+#   - "3.5"
+#   - "3.6"
+
 cache: pip
+
 install:
-  - pip install -r requirements.txt
+   - pip install -r requirements.txt
+   - sudo apt update
+#     - sudo apt upgrade
+   - sudo apt install -y python-pip
+   - sudo apt install build-essential libssl-dev libffi-dev python-dev
+   - pip install pytest
+#     - pip install -r requirements.txt
+
 script:
+#   - py.test -v --color=yes --exitfirst --showlocals --durations=5
+ - python escapeCharector.py
+#   - sleep 3
+#   - python ex12.py
+#   - sleep 3
+#   - python ex13.py
+#   - sleep 3
+#   - python ex14.py
+#   - sleep 3
+#   - python ex15.py
+#   - sleep 3
+#   - python ex16.py
+#   - sleep 3
+#   - python ex17.py
+#   - sleep 3
+#   - python ex18.py
+    - python ex1.py
   
