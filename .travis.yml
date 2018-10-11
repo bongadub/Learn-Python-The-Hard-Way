@@ -19,17 +19,11 @@ install:
 #     - pip install -r requirements.txt
 script:
    - python ex1.py
-#   - sleep 3
-#   - python ex12.py
-#   - sleep 3
-#   - python ex13.py
-#   - sleep 3
-#   - python ex14.py
-#   - sleep 3
-#   - python ex15.py
-#   - sleep 3
-#   - python ex16.py
-#   - sleep 3
-#   - python ex17.py
-#     - python ex1.py
-  
+   - python ex2.py
+   - python ex3.py
+   - python ex4.py
+   - python ex5.py
+   - python ex6.py
+   - python ex7.py
+   - python ex8.py
+   - python ex9.py
