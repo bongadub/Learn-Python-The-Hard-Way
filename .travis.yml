@@ -27,3 +27,4 @@ script:
    - python ex7.py
    - python ex8.py
    - python ex9.py
+   - python ex10.py
