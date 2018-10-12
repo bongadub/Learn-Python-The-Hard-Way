@@ -1,1 +1,1 @@
-import ex25
+exit()
