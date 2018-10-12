@@ -29,3 +29,5 @@ script:
    - python ex9.py
    - python ex10.py
    - python ex11.py < ex11_inputs.txt
+   -  python ex12.py < ex12_inputs.txt
+   
