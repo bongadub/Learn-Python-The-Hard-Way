@@ -17,6 +17,7 @@ install:
    - sudo apt install build-essential libssl-dev libffi-dev python-dev
    - pip install pytest
 #     - pip install -r requirements.txt
+
 script:
    - python ex1.py
    - python ex2.py
