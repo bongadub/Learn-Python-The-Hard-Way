@@ -38,3 +38,4 @@ script:
    - python ex17.py  test.txt new_file < enter.sh
    - python ex18.py
    - python ex19.py
+   - python ex20.py test.txt
