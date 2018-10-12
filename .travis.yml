@@ -36,4 +36,5 @@ script:
    - python ex15.py ex15_sample.txt < ex15_inputs.txt
    - python ex16.py  test.txt < enter.sh
    - python ex17.py  test.txt new_file < enter.sh
+   - python ex18.py
    
